@@ -1,0 +1,115 @@
+.Center-Container {  
+  position: relative;  
+}  
+      
+.Absolute-Center {  
+  width: 63%;  
+  height: 90%;  
+  margin: auto;  
+  position: absolute;  
+  top: 0; left: 0; bottom: 0; right: 0; 
+  background-color: #272727
+}  
+
+.bg{  
+  background:#FFF url(http://www.themeraid.com/wp-content/themes/themeraid/images/bg.png) repeat center 0;
+}
+
+.nav{
+  width: 16.67%;
+  height: 100%;  
+  float: left;
+  top: 0; left: 0; bottom: 0; right: 0; 
+  background-color: #ECE8E8
+}
+
+.pic_container{
+  width: 83.33%;
+  height: 100%;  
+  float: left;
+  top: 0; left: 0; bottom: 0; right: 0; 
+  background-color: #272727
+}
+
+.pic {
+  width: 20%;
+  height: 25%;  
+  float: left;
+  overflow: hidden;
+  top: 0; left: 0; bottom: 0; right: 0; 
+  background-color: #272727
+}
+
+.topic {
+  width: 75%;
+  height: 20%;  
+  float: top;
+  margin:20% 5% 20% 10%;
+  top: 0; left: 0; bottom: 0; right: 0; 
+  overflow: hidden;
+}
+
+.info {
+  width: 75%;
+  height: 10%;  
+  float: top;
+  margin:10% 5% 10% 10%;
+  top: 0; left: 0; bottom: 0; right: 0; 
+}
+
+p.topicFont {
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #666666;
+  font-size: 200%;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+p.infoFont {
+  font-family: "Futura", Helvetica, sans-serif;
+  color: #666666;
+  font-size: 80%;
+  font-weight: 500;
+  line-height: 100%;
+  text-align: center;
+}
+
+.bgCover {
+  display: none;
+  position:fixed;
+  width:100%;
+  height:100%;
+  background: #000;
+  top:0;
+  left: 0;
+  opacity: 0.9;
+  z-index:2; 
+}
+
+.outWindow {
+  display: none;
+  position: fixed;
+  width: 800px;  
+  height: 480px;  
+  margin: auto;  
+  top: 0; left: 0; bottom: 0; right: 0; 
+}
+
+#mainDiv{width:500px;height:100%;margin: 0 auto;margin-top: 100px;}
+#loveHeart{float:left;width:670px;height:625px}
+#garden{width:100%;height:100%}
+#elapseClock{text-align:right;font-size:18px;margin-top:10px;margin-bottom:10px}
+#words{font-family:"sans-serif";width:500px;font-size:24px;color:#666}
+#messages{display:none}
+#elapseClock .digit{font-family:"digit";font-size:36px}
+#loveu{padding:5px;font-size:22px;margin-top:80px;margin-right:120px;text-align:right;display:none}
+#loveu .signature{margin-top:10px;font-size:20px;font-style:italic}
+#clickSound{display:none}
+#code{float:left;width:440px;height:400px;color:#F0FFFF;font-family:"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";font-size:12px;}
+#code .string{color:#005AB5}
+#code .keyword{color:#CE0000;font-weight:bold}
+#code .placeholder{margin-left:15px}#code .space{margin-left:7px}
+#code .comments{color:#666666}
+#copyright{margin-top:10px;text-align:center;width:100%;color:#666}
+#errorMsg{width:100%;text-align:center;font-size:24px;position:absolute;top:100px;left:0}
+#copyright a{color:#666}
